@@ -7,6 +7,10 @@ print("Random number:", random)
 
 if data == random:
     print("You are right!")
+    happy = bool(data)
+
+    if happy == data:
+        print("User is happy!")
 elif data <= 0:
     print(data, "too small!")
 elif data >= 100:
